@@ -5,11 +5,11 @@
 	<title>Error 416 - %{HOSTNAME}</title>
 	<style>
 		html{
-			background-color: #e74c3c;
+			background-color: #151515;
 		}
-		
+
 		body{
-			color: #fefefe;
+			color: #e74c3c;
 		}
 	</style>
 </head>
@@ -18,6 +18,9 @@
 <div class="error-middle">
 	<h1>Error 416 - Range Not Satisfiable</h1>
 	<p>The 416 (Range Not Satisfiable) status code indicates that none of the ranges in the request's Range header field (Section 3.1) overlap the current extent of the selected resource or that the set of ranges requested has been rejected due to invalid ranges or an excessive request of small or overlapping ranges.</p>
+</div>
+<div class="error-footer">
+	<p>%(HOSTNAME)</p>
 </div>
 </body>
 </html>

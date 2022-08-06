@@ -5,11 +5,11 @@
 	<title>Error 508 - %{HOSTNAME}</title>
 	<style>
                 html{
-                        background-color: #f1c40f;
+                        background-color: #151515;
                 }
 
                 body{
-                        color: #fefefe;
+                        color: #f1c40f;
                 }
         </style>
 
@@ -19,6 +19,9 @@
 <div class="error-middle">
         <h1>Error 508 - Loop Detected</h1>
         <p>The 508 (Loop Detected) status code indicates that the server terminated an operation because it encountered an infinite loop while processing a request with "Depth: infinity". This status indicates that the entire operation failed.</p>
+</div>
+<div class="error-footer">
+	<p>%(HOSTNAME)</p>
 </div>
 </body>
 </html>

@@ -5,11 +5,11 @@
 	<title>Error 425 - %{HOSTNAME}</title>
 	<style>
 		html{
-			background-color: #e74c3c;
+			background-color: #151515;
 		}
-		
+
 		body{
-			color: #fefefe;
+			color: #e74c3c;
 		}
 	</style>
 </head>
@@ -18,6 +18,9 @@
 <div class="error-middle">
 	<h1>Error 425 - Too Early</h1>
 	<p>A 425 (Too Early) status code indicates that the server is unwilling to risk processing a request that might be replayed. User agents that send a request in early data are expected to retry the request when receiving a 425 (Too Early) response status code. A user agent SHOULD retry automatically, but any retries MUST NOT be sent in early data.</p>
+</div>
+<div class="error-footer">
+	<p>%(HOSTNAME)</p>
 </div>
 </body>
 </html>

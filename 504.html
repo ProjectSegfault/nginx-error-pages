@@ -5,11 +5,11 @@
 	<title>Error 504 - %{HOSTNAME}</title>
 	<style>
                 html{
-                        background-color: #f1c40f;
+                        background-color: #151515;
                 }
 
                 body{
-                        color: #fefefe;
+                        color: #f1c40f;
                 }
         </style>
 
@@ -19,6 +19,9 @@
 <div class="error-middle">
         <h1>Error 504 - Gateway Timeout</h1>
         <p>The 504 (Gateway Timeout) status code indicates that the server, while acting as a gateway or proxy, did not receive a timely response from an upstream server it needed to access in order to complete the request.</p>
+</div>
+<div class="error-footer">
+	<p>%(HOSTNAME)</p>
 </div>
 </body>
 </html>

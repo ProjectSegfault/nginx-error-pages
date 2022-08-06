@@ -5,11 +5,11 @@
 	<title>Error 431 - %{HOSTNAME}</title>
 	<style>
 		html{
-			background-color: #e74c3c;
+			background-color: #151515;
 		}
-		
+
 		body{
-			color: #fefefe;
+			color: #e74c3c;
 		}
 	</style>
 </head>
@@ -18,6 +18,9 @@
 <div class="error-middle">
 	<h1>Error 431 - Request Header Fields Too Large</h1>
 	<p>The 431 status code indicates that the server is unwilling to process the request because its header fields are too large. The request MAY be resubmitted after reducing the size of the request header fields.</p>
+</div>
+<div class="error-footer">
+	<p>%(HOSTNAME)</p>
 </div>
 </body>
 </html>

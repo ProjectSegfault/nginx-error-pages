@@ -5,11 +5,11 @@
 	<title>Error 405 - %{HOSTNAME}</title>
 	<style>
 		html{
-			background-color: #e74c3c;
+			background-color: #151515;
 		}
-		
+
 		body{
-			color: #fefefe;
+			color: #e74c3c;
 		}
 	</style>
 </head>
@@ -18,6 +18,9 @@
 <div class="error-middle">
 	<h1>Error 405 - Method Not Allowed</h1>
 	<p>The 405 (Method Not Allowed) status code indicates that the method received in the request-line is known by the origin server but not supported by the target resource. The origin server MUST generate an Allow header field in a 405 response containing a list of the target resource's currently supported methods.</p>
+</div>
+<div class="error-footer">
+	<p>%(HOSTNAME)</p>
 </div>
 </body>
 </html>

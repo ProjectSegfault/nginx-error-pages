@@ -5,11 +5,11 @@
 	<title>Error 502 - %{HOSTNAME}</title>
 	<style>
                 html{
-                        background-color: #f1c40f;
+                        background-color: #151515;
                 }
 
                 body{
-                        color: #fefefe;
+                        color: #f1c40f;
                 }
         </style>
 
@@ -19,6 +19,9 @@
 <div class="error-middle">
         <h1>Error 502 - Bad Gateway</h1>
         <p>The 502 (Bad Gateway) status code indicates that the server, while acting as a gateway or proxy, received an invalid response from an inbound server it accessed while attempting to fulfill the request.</p>
+</div>
+<div class="error-footer">
+	<p>%(HOSTNAME)</p>
 </div>
 </body>
 </html>

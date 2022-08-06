@@ -5,11 +5,11 @@
 	<title>Error 407 - %{HOSTNAME}</title>
 	<style>
 		html{
-			background-color: #e74c3c;
+			background-color: #151515;
 		}
-		
+
 		body{
-			color: #fefefe;
+			color: #e74c3c;
 		}
 	</style>
 </head>
@@ -18,6 +18,9 @@
 <div class="error-middle">
 	<h1>Error 407 - Proxy Authentication Required</h1>
 	<p>The 407 (Proxy Authentication Required) status code is similar to 401 (Unauthorized), but it indicates that the client needs to authenticate itself in order to use a proxy. The proxy MUST send a Proxy-Authenticate header field containing a challenge applicable to that proxy for the target resource. The client MAY repeat the request with a new or replaced Proxy-Authorization header field.</p>
+</div>
+<div class="error-footer">
+	<p>%(HOSTNAME)</p>
 </div>
 </body>
 </html>
