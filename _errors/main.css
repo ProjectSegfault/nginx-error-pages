@@ -17,3 +17,10 @@ html{
 	display: block;
 	vertical-align: middle;
 }
+
+.error-footer {
+	display: block;
+	vertical-align: middle;
+	position: absolute;
+    bottom: 0;
+}

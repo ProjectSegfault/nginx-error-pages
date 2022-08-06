@@ -5,11 +5,11 @@
 	<title>Error $ERROR_CODE - %{HOSTNAME}</title>
 	<style>
                 html{
-                        background-color: #f1c40f;
+                        background-color: #151515;
                 }
 
                 body{
-                        color: #fefefe;
+                        color: #f1c40f;
                 }
         </style>
 
@@ -19,6 +19,9 @@
 <div class="error-middle">
         <h1>Error $ERROR_CODE - $ERROR_NAME</h1>
         <p>$ERROR_DESC</p>
+</div>
+<div class="error-footer">
+	<p>%(HOSTNAME)</p>
 </div>
 </body>
 </html>
